@@ -189,6 +189,7 @@ class SemverTest extends TestCase
             array('1.2.3', '>=1.2.1 >=1.2.3'),
             array('1.2.8', '>=1.2'),
             array('1.8.1', '^1.2.3'),
+            array('1.2.3', '^1.x.x || ^2.x.x'),
             array('0.1.2', '^0.1.2'),
             array('0.1.2', '^0.1'),
             array('1.4.2', '^1.2'),
